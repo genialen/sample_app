@@ -1,0 +1,27 @@
+
+rake aborted!
+NoMethodError: undefined method `configure' for #<SampleApp::Application:0x007efe8ced6138>
+/app/config/environments/production.rb:1:in `<top (required)>'
+/app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/engine.rb:591:in `block (2 levels) in <class:Engine>'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/engine.rb:590:in `each'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/engine.rb:590:in `block in <class:Engine>'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/initializable.rb:30:in `instance_exec'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/initializable.rb:30:in `run'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/initializable.rb:55:in `block in run_initializers'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/initializable.rb:44:in `each'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/initializable.rb:44:in `tsort_each_child'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/initializable.rb:54:in `run_initializers'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/application.rb:215:in `initialize!'
+/app/config/environment.rb:5:in `<top (required)>'
+/app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/application.rb:189:in `require_environment!'
+/app/vendor/bundle/ruby/2.0.0/gems/railties-4.0.2/lib/rails/application.rb:250:in `block in run_tasks_blocks'
+Tasks: TOP => db:migrate => environment
+(See full trace by running task with --trace)

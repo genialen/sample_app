@@ -1,0 +1,23 @@
+commit f16e495bdbd8aad855c8726c02298e9c9a3a580d
+Author: Alex J. Alen <alexjamesalennowave@gmail.com>
+Date:   Tue Oct 27 16:40:16 2015 +0300
+
+    heroku sec try
+
+commit 23ad3157af7aeb7ffd3f39b425f0bd9f9fa90337
+Author: Alex J. Alen <alexjamesalennowave@gmail.com>
+Date:   Tue Oct 27 16:04:51 2015 +0300
+
+    precomp commit
+
+commit 23706517830c77b68c697563dbd3345241da7d10
+Author: Alex J. Alen <alexjamesalennowave@gmail.com>
+Date:   Tue Oct 27 14:30:13 2015 +0300
+
+    Second commit
+
+commit b40cfcaf45d4966f6aa5340e0c1ad11147c75b77
+Author: Alex J. Alen <alexjamesalennowave@gmail.com>
+Date:   Tue Oct 27 14:05:49 2015 +0300
+
+    initial commit
